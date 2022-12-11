@@ -1,10 +1,27 @@
+![handpose preview](https://user-images.githubusercontent.com/97396687/206886590-883da220-47e5-40d9-a8b5-0e47aa505eba.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Cara Penggunaan
 
-In the project directory, you can run:
+### Install dependensi
+
+`npm install @tensorflow/tfjs @tensorflow-models/handpose react-webcam`
+
+### Import dependensi
+`import * as tf from "@tensorflow/tfjs";`
+`import * as handpose from "@tensorflow-models/handpose";`
+`import Webcam from "react-webcam";`
+`In the project directory, you can run:`
+
+### Setup webcam dan canvas
+### Define references to those
+### Load handpose
+### Detect function
+### Drawing utilities from tensorflow
+### Draw function
 
 ### `npm start`
 
